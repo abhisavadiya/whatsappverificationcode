@@ -7,8 +7,8 @@
           AccountKit_OnInteractive = function(){
             AccountKit.init(
               {
-                appId:"1251722044996586", 
-                state:"cwfetdsqetgargragatrewffdvrfffwqfe", 
+                appId:"Write your app id here", 
+                state:"Write your state here", 
                 version:"v1.0",
                 fbAppEventsEnabled:true 
               }
