@@ -1,7 +1,7 @@
 <?php 
     include "./connect.php"; 
-    define( "FB_ACCOUNT_KIT_APP_ID", "1251722044996586" );
-    define( "FB_ACCOUNT_KIT_APP_SECRET", "a89f907ae02cc19664e0e715f5d1f082" );
+    define( "FB_ACCOUNT_KIT_APP_ID", "write your app id here" );
+    define( "FB_ACCOUNT_KIT_APP_SECRET", "write your app secret here" );
     $code = $_POST['code'];
     $csrf = $_POST['csrf'];
     $auth = file_get_contents( 'https://graph.accountkit.com/v1.1/access_token?grant_type=authorization_code&code='.  $code .'&access_token=AA|'. FB_ACCOUNT_KIT_APP_ID .'|'. FB_ACCOUNT_KIT_APP_SECRET );
